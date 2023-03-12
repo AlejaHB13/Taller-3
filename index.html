@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Parqueadero</title>
+  
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
@@ -15,20 +16,27 @@
         </div>
         <div class="row">
             <div class="col-md-2">
-                
                 <div class="container-fluid mt-4">
-                <ul class="nav flex-column">
-                    
-                    <li class="nav-item dropdown ml-md-auto">
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                             <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider">
-                            </div> <a class="dropdown-item" href="#">Separated link</a>
-                        </div>
-                    </li>
-                </ul>
+               <!-- Menu-->
+               <header class="header">
+                <div class="container">
+                <div class="btn-menu">
+                  <label for="btn-menu">☰ Menú</label>
+                </div>
+                </div>
+              </header>
+              <div class="capa"></div>
+            <!--	--------------->
+            <input type="checkbox" id="btn-menu">
+            <div class="container-menu">
+              <div class="cont-menu">
+                <nav>
+                  <a href="#">Inicio</a>
+                
+                </nav>
+                <label for="btn-menu">✖️</label>
+              </div>
             </div>
-
             </div>
             <div class="col-md-10">
             </div>
