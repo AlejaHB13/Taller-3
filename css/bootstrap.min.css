@@ -115,6 +115,11 @@
     cursor: pointer;
     font-size: 18px;
 }
+
+#breadcrumb {
+    float: right;
+    color: white;
+  }
 /*Fin de Menù lateral*//*!
  * Bootswatch v5.2.3 (https://bootswatch.com)
  * Theme: sketchy
