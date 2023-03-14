@@ -6,3 +6,11 @@ $("#nuevoUsuario").click(function() {
     $('#nuevoUsuarioModal').modal('toggle'); //cierra el modal
 });
 
+$("#nuevoVehiculo").click(function() {
+    var placa = $("#placa").val(); 
+    var marca =$("#marca").val();
+    var modelo = $("#modelo").val(); 
+    $('#vehiculos tr:last').after('<tr><td>' + placa + '</td><td>'+ marca + '</td><td>' + modelo + '</td></tr>'); 
+    $('#nuevoVehiculoModal').modal('toggle'); 
+});
+
