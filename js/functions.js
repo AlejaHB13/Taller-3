@@ -5,3 +5,4 @@ $("#nuevoUsuario").click(function() {
     $('#usuarios tr:last').after('<tr><td>' + nombre + '</td><td>'+ apellido + '</td><td>' + identificacion + '</td></tr>'); //agrega un nuevo registro a la tabla, después del último tr
     $('#nuevoUsuarioModal').modal('toggle'); //cierra el modal
 });
+
